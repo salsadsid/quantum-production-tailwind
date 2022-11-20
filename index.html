@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;700&family=Montserrat:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        yellow: '#E8BD0D',
+                        offBlack: '#242B2E',
+                        darkBlue: '#03203C '
+                    },
+                    fontFamily: {
+                        exo: ["Exo", "sans-serif"],
+                        mont: ["Montserrat", "sans-serif"],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header class="h-20 w-full font-exo absolute bg-white">
+        <nav class="w-4/5 h-full flex justify-between mx-auto items-center">
+            <p class="font-bold text-3xl">QUANTUM PRODUCTION</p>
+            <ul class="flex gap-x-5 text-xl font-medium hidden md:flex">
+                <li><a href="">About Us</a></li>
+                <li><a href="">Our Movies</a></li>
+                <li><a href="">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="h-screen bg-[url('./images/banner.jpg')] bg-cover flex items-center">
+            <div class="text-white ml-20 w-2/4">
+                <p class="text-2xl uppercase font-semibold font-exo ">Movie production studios</p>
+                <p class="uppercase text-6xl font-bold">Films Made to</p>
+                <p class="uppercase text-6xl font-bold text-yellow">Perfection</p>
+                <p class="text-md my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, delectus!
+                    Expedita consequatur id
+                    debitis repudiandae labore accusamus nostrum facilis ducimus, eos adipisci tenetur.</p>
+                <button
+                    class="text-xl font-semibold uppercase border-2 border-white bg-transparent px-7 py-2 hover:bg-yellow hover:border-yellow hover:text-black transition-all duration-300">Discover
+                    More</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
