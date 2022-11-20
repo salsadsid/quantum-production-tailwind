@@ -19,7 +19,8 @@
                     colors: {
                         yellow: '#E8BD0D',
                         offBlack: '#242B2E',
-                        darkBlue: '#03203C '
+                        darkBlue: '#120E43',
+                        colorful: '#FF6666',
                     },
                     fontFamily: {
                         exo: ["Exo", "sans-serif"],
@@ -43,10 +44,10 @@
         </nav>
     </header>
     <main>
-        <section class="h-screen bg-[url('./images/banner.jpg')] bg-cover flex items-center">
+        <section class="h-screen bg-[url('./images/banner.jpg')] bg-cover flex items-center font-exo">
             <div class="text-white ml-20 w-2/4">
                 <p class="text-2xl uppercase font-semibold font-exo ">Movie production studios</p>
-                <p class="uppercase text-6xl font-bold">Films Made to</p>
+                <p class="uppercase text-6xl font-bold font-exo ">Films Made to</p>
                 <p class="uppercase text-6xl font-bold text-yellow">Perfection</p>
                 <p class="text-md my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, delectus!
                     Expedita consequatur id
@@ -54,6 +55,49 @@
                 <button
                     class="text-xl font-semibold uppercase border-2 border-white bg-transparent px-7 py-2 hover:bg-yellow hover:border-yellow hover:text-black transition-all duration-300">Discover
                     More</button>
+            </div>
+        </section>
+        <section class="p-10">
+            <div class="border-2 border-offBlack p-10">
+                <div class="flex gap-x-12">
+                    <div
+                        class="w-1/2 bg-[url('./images/camera-man.jpg')] h-[500px] bg-cover flex justify-center items-end mb-20">
+                        <h1
+                            class="bg-white w-11/12 text-3xl uppercase font-mont text-center font-bold drop-shadow-lg py-4 -mb-6 rounded">
+                            25
+                            years
+                            of
+                            experience</h1>
+                    </div>
+                    <div class="w-1/2 font-mont">
+                        <p class="text-2xl uppercase font-semibold font-exo ">About us</p>
+                        <p class="uppercase text-6xl font-bold font-exo ">FIlming Experience Just Got better</p>
+                        <p class="text-md my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci,
+                            delectus!
+                            Expedita consequatur id
+                            debitis repudiandae labore accusamus nostrum facilis ducimus, eos adipisci tenetur. Lorem
+                            ipsum dolor sit amet.</p>
+                        <button
+                            class="text-xl font-semibold uppercase border-2 border-offBlack bg-transparent px-7 py-2 hover:bg-yellow hover:border-yellow hover:text-black transition-all duration-300">Discover
+                            More</button>
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 gap-x-20 font-mont">
+                    <div class="border-t-4 border-offBlack">
+                        <h1 class="uppercase text-3xl font-bold py-3 font-exo">Our vision</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, consequatur. Lorem
+                            ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="border-t-4 border-offBlack">
+                        <h1 class="uppercase text-3xl font-bold py-3 font-exo">Our mission</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, consequatur. </p>
+                    </div>
+                    <div class="border-t-4 border-offBlack">
+                        <h1 class="uppercase text-3xl font-bold py-3 font-exo">Our motto</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, consequatur. Lorem
+                            ipsum dolor, sit amet consectetur adipisicing elit. Qui?</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
