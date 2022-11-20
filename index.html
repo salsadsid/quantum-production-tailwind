@@ -45,7 +45,7 @@
     </header>
     <main>
         <section class="h-screen bg-[url('./images/banner.jpg')] bg-cover flex items-center font-exo">
-            <div class="text-white ml-20 w-2/4">
+            <div class="text-white ml-20 md:w-2/4 w-full">
                 <p class="text-2xl uppercase font-semibold font-exo ">Movie production studios</p>
                 <p class="uppercase text-6xl font-bold font-exo ">Films Made to</p>
                 <p class="uppercase text-6xl font-bold text-yellow">Perfection</p>
@@ -59,9 +59,9 @@
         </section>
         <section class="p-10">
             <div class="border-2 border-offBlack p-10">
-                <div class="flex gap-x-12">
+                <div class="lg:flex gap-x-12 lg:mb-0 mb-20">
                     <div
-                        class="w-1/2 bg-[url('./images/camera-man.jpg')] h-[500px] bg-cover flex justify-center items-end mb-20">
+                        class="lg:w-1/2 w-full bg-[url('./images/camera-man.jpg')] h-[300px] lg:h-[500px] bg-cover flex justify-center items-end mb-20">
                         <h1
                             class="bg-white w-11/12 text-3xl uppercase font-mont text-center font-bold drop-shadow-lg py-4 -mb-6 rounded">
                             25
@@ -69,7 +69,7 @@
                             of
                             experience</h1>
                     </div>
-                    <div class="w-1/2 font-mont">
+                    <div class="lg:w-1/2 w-full font-mont">
                         <p class="text-2xl uppercase font-semibold font-exo ">About us</p>
                         <p class="uppercase text-6xl font-bold font-exo ">FIlming Experience Just Got better</p>
                         <p class="text-md my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci,
@@ -82,7 +82,7 @@
                             More</button>
                     </div>
                 </div>
-                <div class="grid grid-cols-3 gap-x-20 font-mont">
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-x-20 md:gap-20 gap-20  font-mont ">
                     <div class="border-t-4 border-offBlack">
                         <h1 class="uppercase text-3xl font-bold py-3 font-exo">Our vision</h1>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, consequatur. Lorem
@@ -96,6 +96,42 @@
                         <h1 class="uppercase text-3xl font-bold py-3 font-exo">Our motto</h1>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, consequatur. Lorem
                             ipsum dolor, sit amet consectetur adipisicing elit. Qui?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="px-10 bg-offBlack pb-20">
+            <div class="lg:flex justify-between items-center px-10 py-10">
+                <div>
+                    <p class="text-2xl uppercase font-semibold font-exo text-white">Our movies</p>
+                    <p class="uppercase text-6xl font-bold font-exo text-yellow">movies collection</p>
+                </div>
+                <div class="my-10 lg:m-0">
+                    <button
+                        class="text-xl font-semibold uppercase border-2 border-white bg-transparent px-7 py-2 hover:bg-yellow hover:border-yellow hover:text-black transition-all duration-300 text-white">Discover
+                        More</button>
+                </div>
+            </div>
+            <div class="px-10 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-x-10 md:gap-20 gap-20  font-mont ">
+                <div class="border-2 border-white w-full md:h-[500px] h-[280px] lg:h-[400px] p-5">
+                    <div class="w-full h-full bg-[url('./images/tenet.jpg')] bg-cover bg-center ">
+
+                    </div>
+                </div>
+                <div class="border-2 border-white w-full md:h-[500px] h-[280px] lg:h-[400px]  p-5">
+                    <div class="w-full h-full bg-[url('./images/inception.jpg')] bg-center bg-cover">
+
+                    </div>
+                </div>
+                <div class="border-2 border-white w-full md:h-[500px] h-[280px] lg:h-[400px]  p-5 ">
+                    <div class="w-full h-full bg-[url('./images/interstellar.jpg')] bg-center bg-cover">
+
+                    </div>
+                </div>
+                <div class="border-2 border-white w-full md:h-[500px] h-[280px] lg:h-[400px]  p-5">
+                    <div class="w-full h-full bg-[url('./images/fractured.jpg')] bg-center bg-cover">
+
                     </div>
                 </div>
             </div>
